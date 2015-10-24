@@ -1,3 +1,21 @@
+Package: com.cydiadump.appsyncunified
+Version: 5.6-1
+Architecture: iphoneos-arm
+Maintainer: Karen Tsai (angelXwind) <angelXwind@angelxwind.net>
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: ./debs//com.cydiadump.appsyncunified_5.6-1_iphoneos-arm.deb
+Size: 29544
+MD5sum: 139691d9d6d8eb53b57f57e4e10ae4c7
+SHA1: 19154477d7a6c93111b877c07bbafbe6af6ee2d2
+SHA256: 3beb05456db494c3395e5863d40bc0cdf54fea910a81f16be9dea44f55cc8735
+Section: Tweaks
+Description: AppSync Unified allows you to sync and install unsigned iOS applications. Works on iOS 5, 6, 7, and 8. AppSync Unified and jailbreaking are NOT for piracy. AppSync Unified and jailbreaking are for freedom of your iOS device.
+Author: Linus Yang, Karen Tsai <angelXwind@angelxwind.net>
+Name: AppSync Unified
+
 Package: com.cydiadump.moviebox
 Version: 3.3.7
 Architecture: iphoneos-arm
