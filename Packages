@@ -1,0 +1,14 @@
+Package: com.cydiadump.moviebox
+Version: 3.3.7
+Architecture: iphoneos-arm
+Maintainer: CydiaDump
+Filename: ./debs//com.cydiadump.moviebox_3.3.7_iphoneos-arm.deb
+Size: 23421216
+MD5sum: 0cb789ef511d527c3691b4076fff1f6c
+SHA1: 9f5d6b22d4163ad9affe8e5bf674075a36304185
+SHA256: 1ca00ecf878cb414cb6e835c2a5c6661fcd030d276ecf841938d8064e4de2f4a
+Description: Watch tons of movies and tv shows free on your device.
+Author: Fred Vasilenko <fred.vasilenko@yandex.ru>
+Depiction: http://www.googledrive.com/host/0B-mQc-bc-K8SVFFhTk1KaDV3MlU
+Name: Movie Box
+

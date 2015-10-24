@@ -1,2 +1,2 @@
 #!/bin/bash
-dpkg-deb -bZgzip projects/name debs
+dpkg-deb -bZgzip projects/MovieBox debs
