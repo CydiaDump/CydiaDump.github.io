@@ -1,0 +1,8 @@
+Package: com.cydiadump.gba4ios
+Section: Tweaks
+Maintainer: Riley Testut
+Architecture: iphoneos-arm
+Version: 0.9.5001
+Description: Gameboy Advance Emulator. Supported on iOS 7, 8, and 9.
+Name: Cydget
+Author: Riley Testut
