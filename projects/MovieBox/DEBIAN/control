@@ -1,7 +1,6 @@
 Architecture: iphoneos-arm
 Author: Fred Vasilenko <fred.vasilenko@yandex.ru>
-Description: Watch tons of movies and tv shows free on your device.
-Depiction: http://www.googledrive.com/host/0B-mQc-bc-K8SVFFhTk1KaDV3MlU
+Description: Amazing collection of Movies and TV Shows, absolutely free. You can download the movies on your device or watch online. Every week, we add new movies to the database. We are working to improve the quality of some films. Stay with the Movie Box!
 Name: Movie Box
 Maintainer: CydiaDump
 Package: com.cydiadump.moviebox
