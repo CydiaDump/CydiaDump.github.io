@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="320px" height="568px" viewBox="0 0 320 568" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Avenir" font-weight="normal">
+        <g id="Artboard-6">
+            <text id="More-info" font-size="26" fill="#FFFFFF">
+                <tspan x="47" y="216">More info</tspan>
+            </text>
+            <text id="I-could-have-you-swi" font-size="17">
+                <tspan x="47" y="252.046875" fill="#FFFFFF">I could have you swipe </tspan>
+                <tspan x="47" y="275.046875" fill="#FFFFFF">through these info tiles for </tspan>
+                <tspan x="47" y="298.046875" fill="#FFFFFF">awhile, instead I have </tspan>
+                <tspan x="47" y="321.046875" fill="#FFFFFF">documented everything on </tspan>
+                <tspan x="47" y="344.046875" fill="#15F9F9">LockPlus.info</tspan>
+                <tspan x="145.872" y="344.046875" fill="#FFFFFF"> Enjoy!</tspan>
+            </text>
+            <text id="Swipe-down-to-close." font-size="12" fill="#FFFFFF">
+                <tspan x="47" y="374.046875">Swipe down to close.</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

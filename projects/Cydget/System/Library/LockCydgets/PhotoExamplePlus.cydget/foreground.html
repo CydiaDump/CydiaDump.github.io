@@ -1,0 +1,132 @@
+<html><head>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<style>
+    * {
+        border: 0;
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        /*font-family: inherit;*/
+        font-size: 100%;
+        font-style: inherit;
+        font-weight: inherit;
+        margin: 0;
+        outline: 0;
+        padding: 0;
+        text-decoration: none;
+        vertical-align: baseline;
+    }
+
+    * {
+        -webkit-touch-callout: none;
+        -webkit-text-size-adjust: none;
+        -webkit-user-select: none;
+    }
+
+    body {
+        color: white;
+        background: none;
+    }
+
+    #lcd {
+        margin-top: 50px;
+    }
+
+    #lcd h1 {
+        font-family: "LockClock-Light";
+        padding: 0px 0px 0px 1px;
+        position: relative;
+        text-align: center;
+        text-shadow: -0.5px -1px 1px black;
+    }
+
+    #lcd h2 {
+        font-family: "Helvetica";
+        position: relative;
+        text-align: center;
+        text-shadow: -0.5px -1px 1px black;
+    }
+
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        #lcd {
+            height: 96px;
+        }
+
+        #lcd h1 {
+            font-size: 65px;
+            top: -6px;
+        }
+
+        #lcd h2 {
+            font-size: 17px;
+            top: -16px;
+        }
+    }
+
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+        #lcd {
+            background: url(file:///System/Library/PrivateFrameworks/TelephonyUI.framework/BarLCD.png);
+            height: 96px;
+        }
+
+        #lcd h1 {
+            font-size: 69px;
+            top: -8px;
+        }
+
+        #lcd h2 {
+            font-size: 16px;
+            top: -18px;
+        }
+    }
+
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+        #lcd {
+            background: url(file:///System/Library/PrivateFrameworks/TelephonyUI.framework/BarLCD_T.png);
+            height: 107px;
+        }
+
+        #lcd h1 {
+            font-size: 69px;
+            top: -1px;
+        }
+
+        #lcd h2 {
+            font-size: 16px;
+            top: -8px;
+        }
+    }
+
+    @media (-cydget-media-controls) {
+        #lcd {
+            opacity: 0;
+        }
+    }
+</style></head><body>
+    <div id="lcd"><script type="text/javascript">
+        var locale = CFLocaleCopyCurrent();
+        var now = CFDateCreate(NULL, CFAbsoluteTimeGetCurrent());
+        var formatter = CFDateFormatterCreate(NULL, locale, kCFDateFormatterNoStyle, kCFDateFormatterNoStyle);
+        CFRelease(locale);
+
+        CFDateFormatterSetFormat(formatter, UIDateFormatStringForFormatType(UINoAMPMTimeFormat));
+        var time = CFDateFormatterCreateStringWithDate(NULL, formatter, now);
+        document.write('<h1>');
+        document.write(time);
+        document.write('</h1>');
+        CFRelease(time);
+
+        CFDateFormatterSetFormat(formatter, UIDateFormatStringForFormatType(UIWeekdayNoYearDateFormat));
+        var date = CFDateFormatterCreateStringWithDate(NULL, formatter, now);
+        document.write('<h2>');
+        document.write(date);
+        document.write('</h2>');
+        CFRelease(date);
+
+        CFRelease(formatter);
+        CFRelease(now);
+    </script></div>
+</body></html>

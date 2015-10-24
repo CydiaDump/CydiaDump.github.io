@@ -1,0 +1,227 @@
+<html><head>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<style>
+    * {
+        border: 0;
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        /*font-family: inherit;*/
+        font-size: 100%;
+        font-style: inherit;
+        font-weight: inherit;
+        margin: 0;
+        outline: 0;
+        padding: 0;
+        text-decoration: none;
+        vertical-align: baseline;
+    }
+
+    * {
+        -webkit-touch-callout: none;
+        -webkit-text-size-adjust: none;
+        -webkit-user-select: none;
+    }
+
+    body {
+        color: white;
+        background: none;
+    }
+
+    #lcd {
+        width: 100%;
+    }
+
+    #lcd h1 {
+        font-family: "LockClock-Light";
+        padding: 0px 0px 0px 1px;
+        position: relative;
+        text-align: center;
+        text-shadow: -0.5px -1px 1px black;
+    }
+
+    #lcd h2 {
+        font-family: "Helvetica";
+        position: relative;
+        text-align: center;
+        text-shadow: -0.5px -1px 1px black;
+    }
+
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        #lcd {
+            height: 96px;
+        }
+
+        #lcd h1 {
+            font-size: 65px;
+            top: -6px;
+        }
+
+        #lcd h2 {
+            font-size: 17px;
+            top: -16px;
+        }
+    }
+
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+        #lcd {
+            background: url(file:///System/Library/PrivateFrameworks/TelephonyUI.framework/BarLCD.png);
+            height: 96px;
+        }
+
+        #lcd h1 {
+            font-size: 69px;
+            top: -8px;
+        }
+
+        #lcd h2 {
+            font-size: 16px;
+            top: -18px;
+        }
+    }
+
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+        #lcd {
+            background: url(file:///System/Library/PrivateFrameworks/TelephonyUI.framework/BarLCD_T.png);
+            height: 107px;
+        }
+
+        #lcd h1 {
+            font-size: 69px;
+            top: -1px;
+        }
+
+        #lcd h2 {
+            font-size: 16px;
+            top: -8px;
+        }
+    }
+
+    #content {
+        font-family: "Helvetica";
+        min-height: 268px;
+        text-align:center;
+    }
+
+    #content h3 {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #content p {
+        font-size: 14px;
+        text-align: justify;
+        margin: 10px 12px;
+    }
+
+    sup {
+        font-size: smaller;
+        position: relative;
+        top: -5px;
+    }
+
+    #content img {
+        margin: auto;
+        max-width: 100%;
+        vertical-align:middle;
+    }
+
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (device-height: 480px) {
+        #content img {
+            max-height: 268px;
+        }
+    }
+
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (device-height: 568px) {
+        #content img {
+            max-height: 356px;
+        }
+    }
+
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+        #content img {
+            max-height: 556px;
+        }
+    }
+
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+        #content img {
+            max-height: 769px;
+        }
+    }
+</style></head><body>
+    <script type="text/javascript">
+        if (kCFCoreFoundationVersionNumber > 800)
+            document.write('<div style="height: 24px"></div>');
+        else
+            document.write('<style type="text/css"> #lcd { background: url(cydget://_UIImageWithName/UILCDBackground.png); } </style>');
+    </script>
+    <div id="content">
+        <script type="text/cycript" src="lcd.cy"></script>
+    <script type="text/cycript"> try {
+        dlopen("/System/Library/PrivateFrameworks/PhotoLibrary.framework/PhotoLibrary", RTLD_GLOBAL);
+
+        var version = typeof PLCameraAlbum != "undefined" && [PLCameraAlbum respondsToSelector:@selector(sharedInstance)] ? 0 : 1;
+
+        var album;
+        if (version == 0)
+            album = [[PLCameraAlbum sharedInstance] images];
+        else {
+            album = [[PLPhotoLibrary sharedPhotoLibrary] albums][0];
+
+            version = [album respondsToSelector:@selector(managedObjectContext)] ? 2 : 1;
+            if (version == 1)
+                album = album.contents;
+            else {
+                if ([album respondsToSelector:@selector(indexOfPosterImage)])
+                    [album indexOfPosterImage];
+                else
+                    [album posterImage];
+                [album entity];
+                album = album.managedObjectContext.registeredObjects.allObjects;
+            }
+        }
+
+        var getImage = function(index) {
+            var object = album[index];
+
+            if (version == 0)
+                return [[object fileGroup] pathForFullSizeImage];
+            else if (version == 1)
+                return '/var/mobile/Media/' + [object directory].toString() + '/' + [object filename].toString();
+            else if (version == 2) {
+                if ([object respondsToSelector:@selector(fileURLForLargeDisplayableImage)])
+                    return [object fileURLForLargeDisplayableImage];
+                else if ([object respondsToSelector:@selector(filePathsWithoutThumbs)])
+                    return [[object filePathsWithoutThumbs] anyObject];
+            }
+
+            return null;
+        };
+
+        var jpeg = null, length = album.length;
+        if (length != 0) {
+            for (var i = 0; i != 5; ++i) {
+                jpeg = getImage(Math.floor(Math.random() * length));
+                if (jpeg != null)
+                    break;
+            }
+
+            if (jpeg == null)
+                for (var i = 0; i != length; ++i) {
+                    jpeg = getImage(i);
+                    if (jpeg != null)
+                        break;
+                }
+
+            if (jpeg != null)
+                document.write('<img src="' + jpeg.toString() + '"/>');
+        }
+    } catch (e) {
+        document.write(e.toString());
+    } </script></div>
+</body></html>

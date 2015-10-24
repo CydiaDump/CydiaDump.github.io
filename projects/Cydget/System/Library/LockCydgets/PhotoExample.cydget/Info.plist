@@ -1,0 +1,8 @@
+CYTagline = "a lame example Cydget that renders Camera photos";
+CYPlugin = "WebCycriptLockScreen";
+
+CYConfiguration = {
+    Homepage = "index.html";
+    CycriptURLs = "^file:///System/Library/LockCydgets/PhotoExample\\.cydget/index\\.html$";
+    Scrollable = NO;
+};

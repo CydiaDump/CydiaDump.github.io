@@ -1,0 +1,12 @@
+Package: com.macciti.lockplus
+Name: Lock +
+Version: 1.6
+Architecture: iphoneos-arm
+Depends: com.drewsdunne.nolockbounce, com.saruik.cydget
+Description: Amazing new way to create and share lockscreen themes.
+Maintainer: iC <apt@macciti.com>
+Author: junesiphone <street.visions@yahoo.com>
+Sponsor: MacCiti <http://www.macciti.com/cydia/pages/sponsor.php>
+Section: Addons (Cydget)
+Depiction: http://www.macciti.com/pages/lockplus/index.php
+tag: cydia::commercial

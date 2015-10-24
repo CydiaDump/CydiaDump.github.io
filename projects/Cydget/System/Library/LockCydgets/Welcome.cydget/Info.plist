@@ -1,0 +1,10 @@
+CYTagline = "a warm welcome to the new cydget experience";
+CYPlugin = "WebCycriptLockScreen";
+
+CYConfiguration = {
+    Homepage = "Welcome.html";
+    CycriptURLs = "^file:///System/Library/LockCydgets/Welcome\\.cydget/Welcome\\.html$";
+    Scrollable = NO;
+    MediaControls = YES;
+    NotificationList = YES;
+};

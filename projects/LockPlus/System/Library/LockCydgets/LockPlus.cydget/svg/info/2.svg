@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="320px" height="568px" viewBox="0 0 320 568" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Avenir" font-weight="normal">
+        <g id="Artboard-2" fill="#FFFFFF">
+            <text id="Menu" font-size="26">
+                <tspan x="47" y="228">Menu</tspan>
+            </text>
+            <text id="After-these-instruct" font-size="17">
+                <tspan x="47" y="264.09375">After these instructions you </tspan>
+                <tspan x="47" y="287.09375">can swipe left (from the far </tspan>
+                <tspan x="47" y="310.09375">right) to display the main </tspan>
+                <tspan x="47" y="333.09375">menu. Swipe right to close </tspan>
+                <tspan x="47" y="356.09375">the menu.</tspan>
+            </text>
+            <text id="Swipe-Left-to-contin" font-size="12">
+                <tspan x="47" y="382.09375">Swipe Left to continue.</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

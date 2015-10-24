@@ -1,0 +1,13 @@
+Package: com.saruik.cydget
+Priority: optional
+Section: System
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 0.9.5001
+Description: Framework for managing lock screen plugins.
+Name: Cydget
+Depends: mobilesubstrate, firmware (>= 2.2), preferenceloader, cy+cpu.arm64 | pcre (>= 8.30), com.saruik.webcycript
+Replaces: cydialer (<< 0.9.17)
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Tag: purpose::library, role::enduser
+Depiction: http://cydia.saurik.com/info/cydget/

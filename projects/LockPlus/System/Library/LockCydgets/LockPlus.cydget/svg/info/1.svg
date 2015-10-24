@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="320px" height="568px" viewBox="0 0 320 568" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Avenir" font-weight="normal">
+        <g id="Artboard" fill="#FFFFFF">
+            <text id="Welcome-to-Lock-+" font-size="26">
+                <tspan x="47" y="239">Welcome to Lock +</tspan>
+            </text>
+            <text id="LockPlus-allows-you-" font-size="17">
+                <tspan x="47" y="275.75">LockPlus allows you to create </tspan>
+                <tspan x="47" y="298.75">themes via the internet and </tspan>
+                <tspan x="47" y="321.75">load them here.</tspan>
+            </text>
+            <text id="Swipe-Left-to-contin" font-size="12">
+                <tspan x="47" y="350.75">Swipe Left to continue.</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="320px" height="568px" viewBox="0 0 320 568" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Avenir" font-weight="normal">
+        <g id="Artboard-4" fill="#FFFFFF">
+            <text id="Downloading" font-size="26">
+                <tspan x="47" y="184">Downloading</tspan>
+            </text>
+            <text id="You-can-download-the" font-size="17">
+                <tspan x="47" y="220.023438">You can download themes by </tspan>
+                <tspan x="47" y="243.023438">pressing the download </tspan>
+                <tspan x="47" y="266.023438">button, and entering a name </tspan>
+                <tspan x="47" y="289.023438">of a theme. You can </tspan>
+                <tspan x="47" y="312.023438">download an example theme </tspan>
+                <tspan x="47" y="335.023438">named LockPlus now to see </tspan>
+                <tspan x="47" y="358.023438">how this works.</tspan>
+            </text>
+            <text id="Swipe-Left-to-contin" font-size="12">
+                <tspan x="47" y="406.023438">Swipe Left to continue.</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

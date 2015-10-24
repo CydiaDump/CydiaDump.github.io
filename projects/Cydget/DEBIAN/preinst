@@ -1,0 +1,5 @@
+#!/bin/bash
+
+if [[ $1 == install || $1 == upgrade ]]; then
+    /usr/libexec/cydia/move.sh /System/Library/LockCydgets
+fi

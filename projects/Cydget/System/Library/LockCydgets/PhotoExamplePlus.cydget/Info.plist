@@ -1,0 +1,16 @@
+CYTagline = "a lame example Cydget that renders Camera photos";
+CYPlugin = "WebCycriptLockScreen";
+CYVersionFilter = (800);
+
+CYConfiguration = {
+    // these are actually relative URLs: you can specify arbitrary http:// or file:///
+    Homepage = "foreground.html";
+    Background = "background.html";
+
+    // if you are not using Cycript, then you should just delete this
+    CycriptURLs = "^file:///System/Library/LockCydgets/PhotoExamplePlus\\.cydget/.*\\.html$";
+
+    Scrollable = NO;
+    MediaControls = YES;
+    NotificationList = YES;
+};

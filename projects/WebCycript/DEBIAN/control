@@ -1,0 +1,13 @@
+Package: com.saruik.webcycript
+Priority: optional
+Section: System
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 0.9.5001
+Description: Library support for Cycript in a UIWebView.
+Name: WebCycript
+Depends: mobilesubstrate (>= 0.9.3366-1), firmware (<< 6.0) | mobilesubstrate (>= 0.9.4000), firmware (<< 7.0) | mobilesubstrate (>= 0.9.5001)
+Breaks: cydget (<< 0.9.5000)
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/com.saurik.webcycript/
+Tag: purpose::library, role::enduser

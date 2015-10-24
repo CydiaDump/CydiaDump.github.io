@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>entry</key>
+        <dict>
+            <key>cell</key>
+            <string>PSLinkCell</string>
+            <key>icon</key>
+            <string>LockPlus@2x.png</string>
+            <key>label</key>
+            <string>LockPlus</string>
+        </dict>
+
+        <key>items</key>
+        <array>
+            <dict>
+                <key>cell</key>
+                <string>PSGroupCell</string>
+                <key>label</key>
+                <string>Time/Date</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSSwitchCell</string>
+                <key>default</key>
+                <false/>
+                <key>defaults</key>
+                <string>com.junesiphone.lockplus</string>
+                <key>key</key>
+                <string>twentyfour</string>
+                <key>label</key>
+                <string>24-Hour Time</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSSwitchCell</string>
+                <key>default</key>
+                <false/>
+                <key>defaults</key>
+                <string>com.junesiphone.lockplus</string>
+                <key>key</key>
+                <string>seconds</string>
+                <key>label</key>
+                <string>Update every second</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSGroupCell</string>
+                <key>label</key>
+                <string>Weather</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSSwitchCell</string>
+                <key>default</key>
+                <false/>
+                <key>defaults</key>
+                <string>com.junesiphone.lockplus</string>
+                <key>key</key>
+                <string>celsius</string>
+                <key>label</key>
+                <string>Celsius</string>
+            </dict>
+            <dict>
+                <key>label</key>
+                <string>Update time in minutes</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSSliderCell</string>
+                <key>default</key>
+                <real>30</real>
+                <key>min</key>
+                <real>15</real>
+                <key>max</key>
+                <real>100</real>
+                <key>showValue</key>
+                <true/>
+                <key>isContinuous</key>
+                <true/>
+                <key>defaults</key>
+                <string>com.junesiphone.lockplus</string>
+                <key>key</key>
+                <string>weather</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSSwitchCell</string>
+                <key>default</key>
+                <false/>
+                <key>defaults</key>
+                <string>com.junesiphone.lockplus</string>
+                <key>key</key>
+                <string>disableweather</string>
+                <key>label</key>
+                <string>Disable Weather</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSGroupCell</string>
+                <key>label</key>
+                <string>Animations</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSSwitchCell</string>
+                <key>default</key>
+                <false/>
+                <key>defaults</key>
+                <string>com.junesiphone.lockplus</string>
+                <key>key</key>
+                <string>aniWeather</string>
+                <key>label</key>
+                <string>Animated Weather</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSLinkListCell</string>
+                <key>defaults</key>
+                <string>com.junesiphone.lockplus</string>
+                <key>detail</key>
+                <string>PSListItemsController</string>
+                <key>key</key>
+                <string>rainColor</string>
+                <key>label</key>
+                <string>Rain Color</string>
+                <key>validTitles</key>
+                <array>
+                    <string>Blue</string>
+                    <string>White</string>
+                    <string>Black</string>
+                </array>
+                <key>validValues</key>
+                <array>
+                    <string>rgba(68, 144, 233, 0.5)</string>
+                    <string>rgba(255, 255, 255, 0.5)</string>
+                    <string>rgba(0, 0, 0, 0.5)</string>
+                </array>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSGroupCell</string>
+                <key>footerText</key>
+                <string>Running all animations at one time is not recommended.</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSSwitchCell</string>
+                <key>default</key>
+                <false/>
+                <key>defaults</key>
+                <string>com.junesiphone.lockplus</string>
+                <key>key</key>
+                <string>aniBirds</string>
+                <key>label</key>
+                <string>Animated Birds</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSGroupCell</string>
+                <key>label</key>
+                <string>Swipe</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSSwitchCell</string>
+                <key>default</key>
+                <false/>
+                <key>defaults</key>
+                <string>com.junesiphone.lockplus</string>
+                <key>key</key>
+                <string>disablemenu</string>
+                <key>label</key>
+                <string>Disable Menu</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSSwitchCell</string>
+                <key>default</key>
+                <false/>
+                <key>defaults</key>
+                <string>com.junesiphone.lockplus</string>
+                <key>key</key>
+                <string>stopmove</string>
+                <key>label</key>
+                <string>Disable Movement</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSGroupCell</string>
+                <key>label</key>
+                <string>Theme</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSSwitchCell</string>
+                <key>default</key>
+                <false/>
+                <key>defaults</key>
+                <string>com.junesiphone.lockplus</string>
+                <key>key</key>
+                <string>disablewall</string>
+                <key>label</key>
+                <string>Disable Wallpaper</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSSwitchCell</string>
+                <key>default</key>
+                <false/>
+                <key>defaults</key>
+                <string>com.junesiphone.lockplus</string>
+                <key>key</key>
+                <string>disableoverlay</string>
+                <key>label</key>
+                <string>Disable Overlay</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSGroupCell</string>
+                <key>footerText</key>
+                <string>If set wallpaper to springboard is enabled, it will set the LockPlus background to Springboard and Lockscreen. To change wallpaper manually, do as you usually do through settings.</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSSwitchCell</string>
+                <key>default</key>
+                <false/>
+                <key>defaults</key>
+                <string>com.junesiphone.lockplus</string>
+                <key>key</key>
+                <string>setsbwall</string>
+                <key>label</key>
+                <string>Set Wallpaper to Springboard</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSGroupCell</string>
+                <key>footerText</key>
+                <string>If Cycle themes is on. Tap and hold the right side of screen to cycle through themes or favorite themes. When random is selected it will randomly pick from your favorites.</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSSwitchCell</string>
+                <key>default</key>
+                <false/>
+                <key>defaults</key>
+                <string>com.junesiphone.lockplus</string>
+                <key>key</key>
+                <string>cycleTheme</string>
+                <key>label</key>
+                <string>Cycle Themes</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSSwitchCell</string>
+                <key>default</key>
+                <false/>
+                <key>defaults</key>
+                <string>com.junesiphone.lockplus</string>
+                <key>key</key>
+                <string>randomFav</string>
+                <key>label</key>
+                <string>Cycle Randomly</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSGroupCell</string>
+                <key>footerText</key>
+                <string>Will cycle through favorite themes based on interval set. Must enable Auto Cycle and pick an interval.</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSSwitchCell</string>
+                <key>default</key>
+                <false/>
+                <key>defaults</key>
+                <string>com.junesiphone.lockplus</string>
+                <key>key</key>
+                <string>timedChanges</string>
+                <key>label</key>
+                <string>Auto Cycle</string>
+            </dict>
+
+            <dict>
+                <key>cell</key>
+                <string>PSLinkListCell</string>
+                <key>defaults</key>
+                <string>com.junesiphone.lockplus</string>
+                <key>detail</key>
+                <string>PSListItemsController</string>
+                <key>key</key>
+                <string>timeInterval</string>
+                <key>label</key>
+                <string>Pick Interval</string>
+                <key>validTitles</key>
+                <array>
+                    <string>Every Hour</string>
+                    <string>Every 2 hours</string>
+                    <string>Every 5 hours</string>
+                    <string>Every 8 hours</string>
+                    <string>Every 12 hours</string>
+                    <string>Every 24 hours</string>
+                    <string>Every 5 seconds (test)</string>
+                </array>
+                <key>validValues</key>
+                <array>
+                    <string>3600000</string>
+                    <string>7200000</string>
+                    <string>18000000</string>
+                    <string>28800000</string>
+                    <string>43200000</string>
+                    <string>86400000</string>
+                    <string>5000</string>
+                </array>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSGroupCell</string>
+                <key>footerText</key>
+                <string>Use this if theme is installed that doesn't allow showing of the LockPlus menu. Toggle this on go to Lockscreen then come back and turn this switch off.</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSSwitchCell</string>
+                <key>default</key>
+                <false/>
+                <key>defaults</key>
+                <string>com.junesiphone.lockplus</string>
+                <key>key</key>
+                <string>resetls</string>
+                <key>label</key>
+                <string>Reset Theme</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSGroupCell</string>
+                <key>footerText</key>
+                <string>Disables menu access. Turn on to stop LockPlus disappearing when notifications come in. To remove blur use hideme8 to disable it, and set custom tint to 0. Requires Respring.</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSSwitchCell</string>
+                <key>default</key>
+                <false/>
+                <key>defaults</key>
+                <string>com.junesiphone.lockplus</string>
+                <key>key</key>
+                <string>noHide</string>
+                <key>label</key>
+                <string>Custom Notification Setting</string>
+            </dict>
+            <dict>
+                <key>cell</key>
+                <string>PSGroupCell</string>
+                <key>footerText</key>
+                <string>Lock + created by JunesiPhone
+Create Themes Online: http://LockPlus.us
+LockPlus Web Forum: http://LockPlus.info/forum
+</string>
+                <key>footerAlignment</key>
+                <integer>1</integer>
+            </dict>
+        </array>
+    </dict>
+</plist>
