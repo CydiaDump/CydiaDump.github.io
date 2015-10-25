@@ -17,18 +17,18 @@ Author: Linus Yang, Karen Tsai <angelXwind@angelxwind.net>
 Name: AppSync Unified
 
 Package: com.cydiadump.gba4ios
-Version: 0.9.5001
+Version: 2.1
 Architecture: iphoneos-arm
 Maintainer: Riley Testut
-Filename: ./debs//com.cydiadump.gba4ios_0.9.5001_iphoneos-arm.deb
-Size: 7749370
-MD5sum: 6f8cb4bc9f4616616ef6443572b1d541
-SHA1: db462d87eb4401ed73b6aba4d98b04952c5ba916
-SHA256: 2868e45729aa836297bdecc08a52aafefeaa8817e9ff16c484d509bc484c043c
+Filename: ./debs//com.cydiadump.gba4ios_2.1_iphoneos-arm.deb
+Size: 7749364
+MD5sum: 69f865b4674d8bd261ff27627d2ce971
+SHA1: 1df9fc72b6c8e6e544fc5e14654b9329a67b09c1
+SHA256: 03cdc2db0be90232407a20211cf90a587b2155418eef75e03ff478af9603e8d2
 Section: Tweaks
 Description: Gameboy Advance Emulator. Supported on iOS 7, 8, and 9.
 Author: Riley Testut
-Name: Cydget
+Name: GBA4iOS
 
 Package: com.cydiadump.moviebox
 Version: 3.3.7
