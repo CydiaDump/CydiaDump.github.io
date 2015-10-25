@@ -1,2 +1,2 @@
 #!/bin/bash
-dpkg-deb -bZgzip projects/Plum-O-Meter debs
+dpkg-deb -bZgzip projects/GoodNight debs

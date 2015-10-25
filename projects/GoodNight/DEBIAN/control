@@ -1,0 +1,8 @@
+Package: com.cydiadump.goodnight
+Section: Tweaks
+Maintainer: Anthony Agatiello
+Architecture: iphoneos-arm
+Version: 1.0-51
+Description: GoodNight allows you to adjust the screen temperature, brightness, and color!
+Name: GoodNight
+Author: Anthony Agatiello

@@ -30,6 +30,20 @@ Description: Gameboy Advance Emulator. Supported on iOS 7, 8, and 9.
 Author: Riley Testut
 Name: GBA4iOS
 
+Package: com.cydiadump.goodnight
+Version: 1.0-51
+Architecture: iphoneos-arm
+Maintainer: Anthony Agatiello
+Filename: ./debs//com.cydiadump.goodnight_1.0-51_iphoneos-arm.deb
+Size: 145180
+MD5sum: 6a25eabd46c19ce8e38df661e241a089
+SHA1: 226bce68f366b20fbcc25cdceb2ce9b20fa2dc55
+SHA256: b867d7f0d0af66bea87368c03568f166d0705cbc692f6438b31270d36bb70979
+Section: Tweaks
+Description: GoodNight allows you to adjust the screen temperature, brightness, and color!
+Author: Anthony Agatiello
+Name: GoodNight
+
 Package: com.cydiadump.moviebox
 Version: 3.3.7
 Architecture: iphoneos-arm
