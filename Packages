@@ -44,6 +44,20 @@ Description: Amazing collection of Movies and TV Shows, absolutely free. You can
 Author: Fred Vasilenko <fred.vasilenko@yandex.ru>
 Name: Movie Box
 
+Package: com.cydiadump.plumometer
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: FlexMonkey
+Filename: ./debs//com.cydiadump.plumometer_1.0_iphoneos-arm.deb
+Size: 4502000
+MD5sum: e5396f5f884d642809e918a600edd891
+SHA1: 110aefc9e9b915385e08725bf5808fb46cfdb838
+SHA256: 1c55899f0a28b714b75e1965f90ab062b0017a9cabf8bfa56998e79eb4274ac4
+Section: Tweaks
+Description: A 3D touch application for weighing plums (and other small fruit!)
+Author: FlexMonkey
+Name: Plum-O-Meter
+
 Package: com.macciti.lockplus
 Version: 1.6
 Architecture: iphoneos-arm

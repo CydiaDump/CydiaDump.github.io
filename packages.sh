@@ -1,2 +1,2 @@
 #!/bin/bash
-dpkg-deb -bZgzip projects/GBA4iOS debs
+dpkg-deb -bZgzip projects/Plum-O-Meter debs

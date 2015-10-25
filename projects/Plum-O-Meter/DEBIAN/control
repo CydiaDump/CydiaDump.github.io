@@ -1,0 +1,8 @@
+Package: com.cydiadump.plumometer
+Section: Tweaks
+Maintainer: FlexMonkey
+Architecture: iphoneos-arm
+Version: 1.0
+Description: A 3D touch application for weighing plums (and other small fruit!)
+Name: Plum-O-Meter
+Author: FlexMonkey
