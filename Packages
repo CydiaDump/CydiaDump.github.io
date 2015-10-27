@@ -76,12 +76,12 @@ Package: com.macciti.lockplus
 Version: 1.6
 Architecture: iphoneos-arm
 Maintainer: iC <apt@macciti.com>
-Depends: com.drewsdunne.nolockbounce, com.saruik.cydget
+Depends: com.drewsdunne.nolockbounce, com.saruik.cydget, com.saruik.cycript
 Filename: ./debs//com.macciti.lockplus_1.6_iphoneos-arm.deb
-Size: 4561494
-MD5sum: 4bb5ebb9abec032f09e9bc867d6fd4ef
-SHA1: e7f6fe4926cfa84d8daf4b4e1b1639687be6febe
-SHA256: 747d4146c1510631ee95c00731e68e3c3baccdc49d6d07aa0746bedae247fe9a
+Size: 4561498
+MD5sum: fba238a5e5e270b5ac51e4b827f1d650
+SHA1: eee2df4e408f7f206f9a62b83e3fa794eb7f0156
+SHA256: a5fac3d2119ac3649245e6faf3a17362343c4cc82c6f141cc736fb407aa212d2
 Section: Addons (Cydget)
 Description: Amazing new way to create and share lockscreen themes.
 Tag: cydia::commercial
@@ -89,6 +89,26 @@ Author: junesiphone <street.visions@yahoo.com>
 Depiction: http://www.macciti.com/pages/lockplus/index.php
 Name: Lock +
 Sponsor: MacCiti <http://www.macciti.com/cydia/pages/sponsor.php>
+
+Package: com.saruik.cycript
+Version: 0.9.502
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: apr-lib, readline, adv-cmds
+Breaks: cydget (<< 0.9.4008)
+Filename: ./debs//com.saruik.cycript_0.9.502_iphoneos-arm.deb
+Size: 693176
+MD5sum: 727fde7de185b4c1aeb6ccc7be71b450
+SHA1: 9dca4e75de098a25ba6fa80f878c03181c10b5d2
+SHA256: a8722e6bb2ff4fb1481deacc92aaa4cfe90a67b2dcbc809fe7bcf4c12d6eec4d
+Section: Development
+Priority: optional
+Description: Runtime execution server and disassembler.
+Tag: purpose::daemon, role::developer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cycript/
+Name: Cycript
 
 Package: com.saruik.cydget
 Version: 0.9.5001

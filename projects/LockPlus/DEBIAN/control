@@ -2,7 +2,7 @@ Package: com.macciti.lockplus
 Name: Lock +
 Version: 1.6
 Architecture: iphoneos-arm
-Depends: com.drewsdunne.nolockbounce, com.saruik.cydget
+Depends: com.drewsdunne.nolockbounce, com.saruik.cydget, com.saruik.cycript
 Description: Amazing new way to create and share lockscreen themes.
 Maintainer: iC <apt@macciti.com>
 Author: junesiphone <street.visions@yahoo.com>
