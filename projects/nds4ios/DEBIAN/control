@@ -1,0 +1,8 @@
+Package: com.cydiadump.nds4ios
+Section: Tweaks
+Maintainer: Karen Tsai (angelXwind)
+Architecture: iphoneos-arm
+Version: 2.0-308-g52f4ee7
+Description: The first and only nintendo DS emulator for iOS. iOS 9 is supported.
+Name: nds4ios
+Author: Karen Tsai (angelXwind)

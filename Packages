@@ -58,6 +58,20 @@ Description: Amazing collection of Movies and TV Shows, absolutely free. You can
 Author: Fred Vasilenko <fred.vasilenko@yandex.ru>
 Name: Movie Box
 
+Package: com.cydiadump.nds4ios
+Version: 2.0-308-g52f4ee7
+Architecture: iphoneos-arm
+Maintainer: Karen Tsai (angelXwind)
+Filename: ./debs//com.cydiadump.nds4ios_2.0-308-g52f4ee7_iphoneos-arm.deb
+Size: 3442724
+MD5sum: e2595a61b84e46534393995b0dce5c79
+SHA1: 8bdaf221f724d89b0a8a29bb8074f991a2f45451
+SHA256: 9b06b3f957a94fd0e7052926cf9d4e7c68b9aae4d1996bdd3a65b439ef7c349e
+Section: Tweaks
+Description: The first and only nintendo DS emulator for iOS. iOS 9 is supported.
+Author: Karen Tsai (angelXwind)
+Name: nds4ios
+
 Package: com.cydiadump.plumometer
 Version: 1.0
 Architecture: iphoneos-arm
@@ -71,80 +85,4 @@ Section: Tweaks
 Description: A 3D touch application for weighing plums (and other small fruit!)
 Author: FlexMonkey
 Name: Plum-O-Meter
-
-Package: com.macciti.lockplus
-Version: 1.6
-Architecture: iphoneos-arm
-Maintainer: iC <apt@macciti.com>
-Depends: com.drewsdunne.nolockbounce, com.saruik.cydget, com.saruik.cycript
-Filename: ./debs//com.macciti.lockplus_1.6_iphoneos-arm.deb
-Size: 4561498
-MD5sum: fba238a5e5e270b5ac51e4b827f1d650
-SHA1: eee2df4e408f7f206f9a62b83e3fa794eb7f0156
-SHA256: a5fac3d2119ac3649245e6faf3a17362343c4cc82c6f141cc736fb407aa212d2
-Section: Addons (Cydget)
-Description: Amazing new way to create and share lockscreen themes.
-Tag: cydia::commercial
-Author: junesiphone <street.visions@yahoo.com>
-Depiction: http://www.macciti.com/pages/lockplus/index.php
-Name: Lock +
-Sponsor: MacCiti <http://www.macciti.com/cydia/pages/sponsor.php>
-
-Package: com.saruik.cycript
-Version: 0.9.502
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: apr-lib, readline, adv-cmds
-Breaks: cydget (<< 0.9.4008)
-Filename: ./debs//com.saruik.cycript_0.9.502_iphoneos-arm.deb
-Size: 693176
-MD5sum: 727fde7de185b4c1aeb6ccc7be71b450
-SHA1: 9dca4e75de098a25ba6fa80f878c03181c10b5d2
-SHA256: a8722e6bb2ff4fb1481deacc92aaa4cfe90a67b2dcbc809fe7bcf4c12d6eec4d
-Section: Development
-Priority: optional
-Description: Runtime execution server and disassembler.
-Tag: purpose::daemon, role::developer
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/cycript/
-Name: Cycript
-
-Package: com.saruik.cydget
-Version: 0.9.5001
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Depends: mobilesubstrate, firmware (>= 2.2), preferenceloader, cy+cpu.arm64 | pcre (>= 8.30), com.saruik.webcycript
-Replaces: cydialer (<< 0.9.17)
-Filename: ./debs//com.saruik.cydget_0.9.5001_iphoneos-arm.deb
-Size: 92306
-MD5sum: 9eda549d7d03dae0789743509cd5fa2b
-SHA1: b0f228d93fbc1d14c31eb6ad2024125eda87134f
-SHA256: 57d99d50368af2bb5cc6866e8ce90c8bc622a0c4ce8c50eec97f68093f44b02b
-Section: System
-Priority: optional
-Description: Framework for managing lock screen plugins.
-Tag: purpose::library, role::enduser
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/cydget/
-Name: Cydget
-
-Package: com.saruik.webcycript
-Version: 0.9.5001
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Depends: mobilesubstrate (>= 0.9.3366-1), firmware (<< 6.0) | mobilesubstrate (>= 0.9.4000), firmware (<< 7.0) | mobilesubstrate (>= 0.9.5001)
-Breaks: cydget (<< 0.9.5000)
-Filename: ./debs//com.saruik.webcycript_0.9.5001_iphoneos-arm.deb
-Size: 27436
-MD5sum: 7fb14ee27d3d7d14bbe51b88c328766b
-SHA1: f3acdc767510d916333a033606a0631d2bb5b739
-SHA256: 9f31614331216dfb7aefc5abf5d8a702d2cf591ff23259847097d4c06c8cc8ba
-Section: System
-Priority: optional
-Description: Library support for Cycript in a UIWebView.
-Tag: purpose::library, role::enduser
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/com.saurik.webcycript/
-Name: WebCycript
 
