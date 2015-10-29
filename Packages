@@ -35,10 +35,10 @@ Version: 1.0.1-61
 Architecture: iphoneos-arm
 Maintainer: Anthony Agatiello
 Filename: ./debs//com.cydiadump.goodnight_1.0.1-61_iphoneos-arm.deb
-Size: 249102
-MD5sum: 76a03ea7cc298ae5a08343b40f0b7f60
-SHA1: 9519f0390f1b063843c29f4abc3150a6b9f16912
-SHA256: 36d85afafd769f2c1386b6f5a2a7316c96a19f69f5c35c8596272f5ff07d05de
+Size: 248052
+MD5sum: acca4c4c94e53a5af0279d78589f6fb3
+SHA1: 25a8ab4b5fe29e273b3ea77815b69e2cb34eb141
+SHA256: 344ca3b70ebbf3c869511cc6d57b86ebd56d24a2d3a030dc86273cf53f2b0477
 Section: Tweaks
 Description: GoodNight allows you to adjust the screen temperature, brightness, and color!
 Author: Anthony Agatiello
