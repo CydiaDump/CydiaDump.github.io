@@ -31,14 +31,14 @@ Author: Riley Testut
 Name: GBA4iOS
 
 Package: com.cydiadump.goodnight
-Version: 1.0-51
+Version: 1.0.1-61
 Architecture: iphoneos-arm
 Maintainer: Anthony Agatiello
-Filename: ./debs//com.cydiadump.goodnight_1.0-51_iphoneos-arm.deb
-Size: 145180
-MD5sum: 6a25eabd46c19ce8e38df661e241a089
-SHA1: 226bce68f366b20fbcc25cdceb2ce9b20fa2dc55
-SHA256: b867d7f0d0af66bea87368c03568f166d0705cbc692f6438b31270d36bb70979
+Filename: ./debs//com.cydiadump.goodnight_1.0.1-61_iphoneos-arm.deb
+Size: 249102
+MD5sum: 76a03ea7cc298ae5a08343b40f0b7f60
+SHA1: 9519f0390f1b063843c29f4abc3150a6b9f16912
+SHA256: 36d85afafd769f2c1386b6f5a2a7316c96a19f69f5c35c8596272f5ff07d05de
 Section: Tweaks
 Description: GoodNight allows you to adjust the screen temperature, brightness, and color!
 Author: Anthony Agatiello

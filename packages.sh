@@ -1,2 +1,2 @@
 #!/bin/bash
-dpkg-deb -bZgzip projects/nds4ios debs
+dpkg-deb -bZgzip projects/GoodNight debs
