@@ -30,19 +30,33 @@ Description: Gameboy Advance Emulator. Supported on iOS 7, 8, and 9.
 Author: Riley Testut
 Name: GBA4iOS
 
-Package: com.cydiadump.goodnight
-Version: 1.0.1-61
+Package: com.cydiadump.goodnight10
+Version: 1.0-51
 Architecture: iphoneos-arm
 Maintainer: Anthony Agatiello
-Filename: ./debs//com.cydiadump.goodnight_1.0.1-61_iphoneos-arm.deb
-Size: 248052
-MD5sum: acca4c4c94e53a5af0279d78589f6fb3
-SHA1: 25a8ab4b5fe29e273b3ea77815b69e2cb34eb141
-SHA256: 344ca3b70ebbf3c869511cc6d57b86ebd56d24a2d3a030dc86273cf53f2b0477
+Filename: ./debs//com.cydiadump.goodnight10_1.0-51_iphoneos-arm.deb
+Size: 248000
+MD5sum: d31e87ea53336eeaca3019a203d32e3e
+SHA1: c20e7f6fa5769031b7ae27ab37f052c4e5776396
+SHA256: 85f25b6c981a60330cac53956bce6ea1b1ef78670281e42fd36caf1933d0cee3
 Section: Tweaks
 Description: GoodNight allows you to adjust the screen temperature, brightness, and color!
 Author: Anthony Agatiello
-Name: GoodNight
+Name: GoodNight 1.0-51
+
+Package: com.cydiadump.goodnight101
+Version: 1.0.1-61
+Architecture: iphoneos-arm
+Maintainer: Anthony Agatiello
+Filename: ./debs//com.cydiadump.goodnight101_1.0.1-61_iphoneos-arm.deb
+Size: 248056
+MD5sum: 69589444e6ca6729b653f736149e155c
+SHA1: 61c143c82ecfe622ebad03a7c01078df382b807e
+SHA256: e96fa42df903d77ab8e25ff990f495381bcfbd9c56dba1e3130fe4d811511297
+Section: Tweaks
+Description: GoodNight allows you to adjust the screen temperature, brightness, and color!
+Author: Anthony Agatiello
+Name: GoodNight 1.0.1-61
 
 Package: com.cydiadump.moviebox
 Version: 3.3.7
